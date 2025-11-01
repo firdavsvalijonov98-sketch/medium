@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEDIUM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="light">
+    <header>
+        <div class="logo">
+            <img src="medium.png" alt="Capsula Logo">
+        </div>
+        <nav>
+            <ul>
+                <li class="dropdown">
+                    <a href="catalog.html">Каталог</a>
+                    <div class="dropdown-content">
+                        <a href="catalog.html">Обувь</a>
+                        <a href="catalog.html">Куртки</a>
+                        <a href="catalog.html">Комплекты</a>
+                        <a href="catalog.html">Футболки</a>
+                        <a href="catalog.html">Ветровки</a>
+                        <a href="catalog.html">Свитшоты & Лонгсливы</a>
+                        <a href="catalog.html">Худи & Зип Толстовки</a>
+                        <a href="catalog.html">Шорты</a>
+                        <a href="catalog.html">Джинсы</a>
+                        <a href="catalog.html">Штаны</a>
+                        <a href="catalog.html">Рубашки</a>
+                        <a href="catalog.html">Аксессуары</a>
+                    </div>
+                </li>
+                <li><a href="new.html">Новинки</a></li>
+                <li><a href="sale.html">Скидки</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+        </nav>
+        <div class="right-icons">
+            <input type="search" placeholder="Поиск...">
+            <a href="#" class="favorites" onclick="toggleFavorite(event)">❤️</a>
+            <a href="signin.html">👤</a>
+            <a href="#">🛒</a>
+            <select onchange="changeLanguage(this.value)">
+                <option value="ru">Русский</option>
+                <option value="uz">Узбекский</option>
+            </select>
+            <button id="theme-toggle">🌙</button> <!-- Кнопка для переключения темы -->
+            
+        </div>
+    </header>
+
+    <div class="slider-bmw">
+        <div class="slide active">
+            <img src="color.png" alt="Banner 1">
+        </div>
+
